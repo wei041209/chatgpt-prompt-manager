@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 **Install from Chrome Web Store:**  
-https://chromewebstore.google.com/detail/dcenajemchddbjfffeljoncbkadjfjkf
+[![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-blue)](https://chromewebstore.google.com/detail/dcenajemchddbjfffeljoncbkadjfjkf)
 
 ## Short project description
 
