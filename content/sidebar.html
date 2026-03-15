@@ -1,0 +1,75 @@
+<!-- content/sidebar.html -->
+<div class="pm-hover-zone" id="pm-hover-zone"></div>
+
+<div class="pm-sidebar" id="pm-sidebar">
+  <button
+    type="button"
+    class="pm-toggle-button"
+    id="pm-toggle-button"
+    title="Toggle Prompt Manager"
+    aria-label="Toggle Prompt Manager sidebar"
+    aria-expanded="false"
+  >
+    Prompts
+  </button>
+
+  <div class="pm-sidebar-inner">
+    <header class="pm-header">
+      <h2 class="pm-title">Prompt Manager</h2>
+    </header>
+
+    <div class="pm-search">
+      <input
+        type="text"
+        id="pm-search-input"
+        class="pm-input"
+        placeholder="Search templates and prompts"
+        autocomplete="off"
+        aria-label="Search saved prompts"
+      />
+    </div>
+
+    <div class="pm-add-form">
+      <input
+        type="text"
+        id="pm-title-input"
+        class="pm-input"
+        placeholder="Prompt title"
+        autocomplete="off"
+        aria-label="Prompt title"
+      />
+
+      <textarea
+        id="pm-text-input"
+        class="pm-textarea"
+        placeholder="Prompt text..."
+        rows="3"
+        aria-label="Prompt text"
+      ></textarea>
+
+      <button
+        type="button"
+        id="pm-save-btn"
+        class="pm-btn pm-btn-primary"
+      >
+        Save Prompt
+      </button>
+    </div>
+
+    <div class="pm-list-container">
+      <ul
+        id="pm-prompt-list"
+        class="pm-prompt-list"
+        data-pm-list="true"
+      ></ul>
+
+      <div
+        id="pm-empty-state"
+        class="pm-empty-state"
+        style="display: none;"
+      >
+        No saved prompts yet.
+      </div>
+    </div>
+  </div>
+</div>
