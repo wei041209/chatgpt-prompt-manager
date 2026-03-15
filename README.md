@@ -2,6 +2,9 @@
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+**Install from Chrome Web Store:**  
+https://chromewebstore.google.com/detail/dcenajemchddbjfffeljoncbkadjfjkf
+
 ## Short project description
 
 ChatGPT Prompt Manager is a lightweight Chrome extension that injects a sidebar into ChatGPT pages, allowing users to save, search, copy, and reuse prompts without leaving the chat interface.
