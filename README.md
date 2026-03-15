@@ -9,7 +9,10 @@ ChatGPT Prompt Manager is a lightweight Chrome extension that injects a sidebar 
 This is an MVP-style student/indie project focused on local prompt management inside the browser.
 
 ## Screenshot
-![Prompt Manager Sidebar](assets/screenshot.png)
+
+Main Prompt Manager panel displayed inside ChatGPT.
+
+![ChatGPT Prompt Manager main interface](assets/sidebar_open.png)
 
 ## Features
 
@@ -108,6 +111,7 @@ No backend service or remote database is used by this project.
 - No defined keyboard shortcut commands for extension actions.
 - `manifest.json` references PNG icon files (`icon16.png`, `icon32.png`, `icon48.png`, `icon128.png`) that are not currently present in this repository.
 
+
 ## Future improvements
 
 - Add prompt editing and duplicate management.
@@ -116,6 +120,23 @@ No backend service or remote database is used by this project.
 - Improve resilience against ChatGPT DOM changes.
 - Add an options page for configurable behavior.
 - Add automated tests for storage and DOM interaction logic.
+
+## More screenshots
+
+### Save prompt
+Create and store a new prompt locally in the browser.
+
+![Save prompt flow](assets/sidebar_save_prompt.png)
+
+### Insert prompt
+Insert a saved prompt directly into the ChatGPT input area.
+
+![Insert prompt into ChatGPT input](assets/sidebar_inserted.png)
+
+### Search prompts
+Filter saved prompts with keyword search.
+
+![Search saved prompts](assets/sidebar_search.png)
 
 ## License
 
