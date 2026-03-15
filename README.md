@@ -1,7 +1,5 @@
 # ChatGPT Prompt Manager
 
-![License](https://img.shields.io/badge/license-MIT-green)
-
 **Install from Chrome Web Store:**  
 [![Chrome Web Store](https://img.shields.io/badge/Chrome-Web%20Store-blue)](https://chromewebstore.google.com/detail/dcenajemchddbjfffeljoncbkadjfjkf)
 
@@ -143,4 +141,8 @@ Filter saved prompts with keyword search.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is provided for portfolio and demonstration purposes only.
+
+All rights reserved.
+
+The source code may not be copied, modified, redistributed, or used for commercial purposes without permission from the author.
